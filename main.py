@@ -1,4 +1,14 @@
+import time
 from data import dados
+
+
+def carregando():
+    for _ in range (3):
+        time.sleep(0.5)
+        print(".", end ="", flush=True)
+    time.sleep(0.5)
+    print()
+
 
 categoria = list(dados.carros.keys())
 
@@ -29,3 +39,10 @@ dias_de_viagem = int(input(f"Agora me diga, quantos dias pretende ficar com o {m
 total_de_custo = dias_de_viagem*diaria
 
 print(f"O custo total será de R$ {total_de_custo}")
+
+print("Carro sendo reservado...")
+carregando()
+print(f"Carro reservado com sucesso, venha buscar dia")# colocar 3d apos a data atual
+
+#aprovacao = 
+## Colocar aprovação, colocar se aceita ou não, colocar um dia ficctio pra pegar, retirar os carros ja selcionas - a locadora do pai ainda ta fraquinha-
