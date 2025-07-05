@@ -68,4 +68,4 @@ while True:
         print("Carro Reservado com SUCESSO.")
         break
 
-    ## Colocar aprovação, colocar se aceita ou não, colocar um dia ficctio pra pegar, retirar os carros ja selcionas - a locadora do pai ainda ta fraquinha-
+  # colocar um dia X pra pegar
